@@ -1,7 +1,7 @@
 import {AbstractFilterView} from './abstract-filter-view.js';
 
 const createRangeFilterTemplate = (disabled = ``) => `<div class="filter__range">
-  <label for="range">Цена, ₽</label>
+  <label for="range">Цена, Тенге</label>
   <input type="text" ${disabled} id="range">
 </div>`;
 

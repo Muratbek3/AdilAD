@@ -21,7 +21,7 @@ const createProductItemTemplate = (product) => `<li class="results__item product
       <h3 class="product__title">
         <a href="#" class="product__name">${product.name}</a>
       </h3>
-      <div class="product__price">${product[`formatted-price`]} ₽</div>
+      <div class="product__price">${product[`formatted-price`]} Тенге</div>
       <div class="product__address">${product.address.city}, ${product.address.street}</div>
       <span class="product__date" title="${product.dateString}">${product.dateDifference}</span>
     </div>
